@@ -77,7 +77,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
     
     func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
         
-        
+        print("callout Accessory Tapped!")
         
         let viewAnno = view.annotation
         let viewTitle: String = ((viewAnno?.title)!)!
